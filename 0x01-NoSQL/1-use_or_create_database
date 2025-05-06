@@ -1,0 +1,3 @@
+// Script to use or create database if it doesn't exist
+use my_db
+
