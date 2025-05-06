@@ -1,3 +1,4 @@
 // Script to insert document into the school collection for current DB
+use my_db
 db.school.insertOne({ name: "ALX" })
 
