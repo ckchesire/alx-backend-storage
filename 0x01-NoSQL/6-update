@@ -1,0 +1,7 @@
+// Update documents with name="Holberton School" and add address attribute
+db.school.update(
+     { name: "Holberton School" },
+     { $set: { address: "972 Mission Street"} },
+     { multi: true }
+)
+
